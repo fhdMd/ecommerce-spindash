@@ -1,0 +1,322 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  background-color: rgb(0, 0, 197);
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 15px gold solid;
+}
+
+header a {
+  color: white;
+  font-size: 25px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 300px;
+  width: 250px;
+}
+
+.category {
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 40px;
+  background-color: red;
+  color: aliceblue;
+  font-weight: bold;
+  border-bottom: 15px gold solid;
+  margin-bottom: 5px;
+}
+
+.category a {
+  text-decoration: none;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a.selected {
+  color: yellow;
+  text-shadow: -1px -1px 0 black, /* Top-left */ 1px -1px 0 black,
+    /* Top-right */ -1px 1px 0 black, /* Bottom-left */ 1px 1px 0 black; /* Bottom-right */
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+  margin: 0;
+  padding: 0;
+}
+table.socials {
+  margin-top: 5px;
+  width: min-content;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+
+table img {
+  height: 100px;
+  width: 100px;
+}
+footer {
+  padding: 10px 0;
+  font-family: fantasy;
+  margin: 0;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  background-color: black;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+div {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+img[src="whatsapp.png"] {
+  width: 45px;
+  height: 45px;
+}
+
+img[src="x.png"] {
+  width: 45px;
+  height: 45px;
+}
+
+img[src="facebook.png"] {
+  width: 45px;
+  height: 45px;
+}
+
+td {
+  text-align: center;
+  vertical-align: center;
+}
+img[src="instagram.png"] {
+  width: 65px;
+  height: 50px;
+}
+.footer-heading {
+  color: gold;
+  font-weight: bolder;
+}
+.socials td:first-child {
+  font-size: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.game-entry {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.game-entry .icons img {
+  margin-top: 25px;
+  height: 50px;
+  width: 50px;
+}
+.game-entry img {
+  margin-left: 50px;
+}
+
+.text-advice {
+  color: blue;
+  text-shadow: -1px -1px 0 lightsteelblue, 1px -1px 0 lightsteelblue,
+    -1px 1px 0 lightsteelblue, 1px 1px 0 lightsteelblue;
+}
+
+.content {
+  flex: 1;
+}
+
+.new-user {
+  font-size: 15px;
+  font-family: fantasy;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+.new-user h1 {
+  color: gold;
+  text-shadow: -2px -2px 0 darkgoldenrod, 2px -2px 0 darkgoldenrod,
+    -2px 2px 0 darkgoldenrod, 2px 2px 0 darkgoldenrod;
+}
+
+.new-user a {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-weight: 100px;
+  color: goldenrod;
+}
+.new-user input[type="text"] {
+  /* border: none; */
+  font-family: cursive;
+  color: darkorange;
+  border: solid 2px gold;
+  border-radius: 5 px;
+  background-color: antiquewhite;
+  height: 35px;
+  width: 200px;
+}
+
+header h1 {
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+}
+.new-user input[type="submit"] {
+  font-size: 25px;
+  background-color: red;
+  border: 3px solid darkred;
+  font-family: fantasy;
+  text-align: center;
+  height: 50px;
+  width: 125px;
+  border-radius: 12.5%;
+  color: yellow;
+  text-shadow: -1px -1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue,
+    1px 1px 0 blue;
+}
+
+table img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.game img {
+  width: 25%;
+  height: auto;
+  display: block;
+}
+.next-page {
+  color: black;
+  font-family: fantasy;
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.prev-page {
+  color: black;
+  text-decoration: none;
+  font-family: fantasy;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+
+.img-cell img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.product {
+  height: 400px;
+  background-color: whitesmoke;
+  border: 3px solid darkgray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px 50px;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  margin: 15px 10px;
+}
+
+p.price {
+  font-family: fantasy;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+p.game-name {
+  font-family: fantasy;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+p.platform a[href="xbox.html"] {
+  font-family: fantasy;
+  text-shadow: -2px -2px 0 green, 2px -2px 0 green, -2px 2px 0 green,
+    2px 2px 0 green;
+  color: white;
+  font-size: 25px;
+}
+
+p.platform a[href="ps5.html"] {
+  font-family: fantasy;
+  text-shadow: -2px -2px 0 blue, 2px -2px 0 blue, -2px 2px 0 blue,
+    2px 2px 0 blue;
+  color: white;
+  font-size: 25px;
+}
+
+p.platform a[href="ps4.html"] {
+  font-family: fantasy;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  color: blue;
+  font-size: 25px;
+}
+
+p.platform a[href="pc.html"] {
+  font-family: fantasy;
+  text-shadow: -2px -2px 0 cornflowerblue, 2px -2px 0 cornflowerblue,
+    -2px 2px 0 cornflowerblue, 2px 2px 0 cornflowerblue;
+  color: white;
+  font-size: 25px;
+}
+
+p.platform a[href="switch.html"] {
+  font-family: fantasy;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  color: red;
+  font-size: 25px;
+}
+
+.entry {
+  display: flex;
+}
